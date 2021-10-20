@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family= Ubuntu:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:wght@300;400;500;700&display=swap');
 *
 {
 	margin: 0;
@@ -29,7 +29,7 @@ body
 .navigation
 {
 	position: fixed;
-	width: 300px;
+	width: 250px;
 	height: 100%;
 	background: var(--blue);
 	border-left: 10px solid var(--blue);
@@ -139,10 +139,9 @@ body
 
 }
 .main{
-
     position: absolute;
-    width: calc(100% - 300px);
-    Left: 300px;
+    width: calc(100% - 250px);
+    Left: 250px;
 	min-width: 100vh;
 	background: var(--white);
 	transition: 0.5s;
@@ -151,7 +150,6 @@ body
     width: calc(100% - 80px);
     Left: 80px;
 }
-
 
 .topbar{
 	width: 100%;
@@ -169,7 +167,7 @@ body
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	font-size: 2.5em;
+	font-size: 2em;
 	cursor: pointer;
 }
 .search{
@@ -193,9 +191,9 @@ body
 }
 .search label ion-icon {
 	position: absolute;
-	top: 0;
+	top: 04;
 	left: 10px;
-	font-size: 2.4em;
+	font-size: 2em;
 }
 
 .user{
