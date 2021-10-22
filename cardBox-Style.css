@@ -13,6 +13,7 @@
     padding: 20px;
     border-radius: 20px;
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     cursor: pointer;
     box-shadow: 0 7px 25px rgba(0, 0, 0, 0.08);
@@ -23,16 +24,19 @@
     color: rgb(13, 73, 141);
     font-weight: 400;
     font-size: 2em;
+    width: min-content;
 }
 
 .cardBox .card .cardName{
     color: var(--black1);
     margin-top: 5px;
     font-size: 1em;
+    width: min-content;
 }
 
 .cardBox .card .iconBox{
     font-size: 2em;
     color: var(--black2);
+    width: min-content;
     
 }
