@@ -34,5 +34,6 @@
 .cardBox .card .iconBox{
     font-size: 2em;
     color: var(--black2);
+    float: right;
     
 }
